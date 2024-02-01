@@ -1,0 +1,49 @@
+body{
+    /* background-color: floralwhite; */
+    background-image: url(./q.webp);
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+    
+
+}
+
+
+a{
+    text-decoration: none;
+    padding: 0 90px;
+    background-color: aqua;
+    display: block;
+    line-height: 40px;
+
+    
+}   
+
+a:hover{
+    background-color: black;
+    color: white;
+    border-radius: 10px;
+}
+
+div{
+    /* background-color:lavender; */
+    text-align: center;
+    text-shadow: 3px 4px 1px white;
+
+    
+}
+
+h1{
+    text-align: center;
+
+
+}
+h2{
+    text-align: center;
+    /* background-color: lightcyan; */
+}
+
+li{
+    font-size: x-large;
+}
+
+

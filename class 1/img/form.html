@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FORM</title>
+</head>
+<style>
+
+
+    td{
+        text-align: center;
+    }
+
+    body{
+        margin: 30px;
+    }
+
+    a{
+        text-decoration: none;
+        
+    }
+
+
+
+</style>
+<body>
+
+    <form action="./welcome.html" >
+        
+
+        <table align="center" border="3px" cellpadding="5"cellspacing="4">
+                            
+            <tr>
+                <th colspan="2" bgcolor="lightgreen">ORDER NOW</th>
+            </tr>
+
+            <tr>    
+                <td align="center">Name</td>
+                <td><input required type="text"></td>
+            </tr>
+
+
+            <tr>        
+                <td>Contact</td>
+                <td><input required type="number"></td>
+            </tr>
+
+            <tr>
+                <td>Address</td>
+                <td><textarea required cols="25"></textarea></td>
+            </tr>
+
+             <tr>
+                <td>Pizza Topping</td>
+                <td>
+                    <input required type="radio" name="Pizza" id="Supreme"><label for="Supreme">Supreme</label><br>
+                    <input required type="radio" name="Pizza" id="Vegetarian"><label for="Vegetarian">Vegetarian</label><br>
+                    <input required type="radio" name="Pizza" id="hawaiian"><label for="hawaiian">Hawaiian</label>
+                </td>
+            </tr>
+
+
+
+            <tr>
+                <td>Burger</td>
+                <td><input type="text"></td>
+            </tr>
+            
+            
+            <tr>
+                <td>Pizza & Burger Souce</td>
+                <td><select>
+                    <option>Tomato</option>
+                    <option>chili Garlic</option>
+                </select></td>
+            </tr>
+
+            <tr>
+                <td>Optional Extras</td>
+                <td>
+                    <input type="checkbox" id="Extra"><label for="Extra">Extra cheese</label>
+                    <input type="checkbox" id="Gulten"><label for="Gulten">Gulten free base</label>
+                </td>
+            </tr>
+
+            <tr>
+                <td>Delivery Instruction</td>
+                <td colspan=""><textarea cols="25"></textarea></td>             
+            </tr>
+
+            <tr>
+            
+                <td colspan="2">
+                    <button>Send your Order</button>
+                    <input type="reset">  
+                
+                </td>
+               
+    
+            </tr>
+
+            <tr>
+                <td colspan="2"><a href="../index.html">Back</a></td>
+            </tr>
+
+
+
+
+        </table>
+
+    </form>
+
+</body>
+</html>
